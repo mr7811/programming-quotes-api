@@ -1,9 +1,10 @@
-import { response } from "express";
+
 import api from "./apiConfig.js";
 
 export const getQuotes = async () => {
 try{
-    const reponse = await api.get("/quotes")
+    const response = await api.get("/")
+    console.log(response.data[0])
     return response.data;
 
 }catch (error) {

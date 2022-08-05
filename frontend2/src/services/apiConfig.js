@@ -3,8 +3,8 @@ import axios from 'axios';
 let apiUrl;
 
 const apiUrls = {
-production: "https://software-dev-quotes-api.herokuapp.com/",
-development: "http://localhost:4000/"
+production: "https://software-dev-quotes-api.herokuapp.com",
+development: "https://software-dev-quotes-api.herokuapp.com"
 
 };
 
